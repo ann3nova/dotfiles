@@ -8,8 +8,9 @@ alias hb="HandBrakeCLI"
 alias poppy="sshfs pi@192.168.0.122: poppy"
 alias pssh="ssh -t pi@192.168.0.122 'DISPLAY=:0 bash -i'"
 alias ytsync="youtube-dl -cit 'https://www.youtube.com/playlist?list=PL484Hmkn-WjFxkZelSCBKxuTJ9fpUt3fW'"
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-
+alias config="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+alias vi="nvim"
+alias fuck="sudo !!"
 
 #other
 export HISTTIMEFORMAT="%F %T "
