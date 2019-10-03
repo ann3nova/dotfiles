@@ -1,0 +1,34 @@
+#commands
+alias df="df -h"
+alias ds="ncdu ~/mnt/FOO"
+alias firm="fwupdmgr update"
+alias foo="cd ~/mnt/FOO"
+alias fuck="sudo !!"
+alias vi="nvim"
+alias video="watch -n 2 nvidia-smi"
+alias wget="wget -c"
+alias yt="youtube-dl -f best"
+alias ytsync="youtube-dl -ci 'https://www.youtube.com/playlist?list=PL484Hmkn-WjFxkZelSCBKxuTJ9fpUt3fW'"
+alias ytud="sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl"xt
+
+
+#adora
+alias afs="sshfs oneeightzero@10.100.1.15:/home/oneeightzero/mnt /home/oneeightzero/adora"
+
+
+#misha
+alias misha="ssh oneeightzero@192.168.0.196"
+alias mifs="sshfs oneeightzero@192.168.0.196: /home/oneeightzero/misha/" 
+
+
+#samus
+alias samus="ssh oneeightzero@10.100.1.10"
+alias samfs="sshfs oneeightzero@10.100.1.10:/home/oneeightzero/ /home/oneeightzero/Samus"
+
+
+#poppy
+alias poppy="ssh -t pi@192.168.0.122 'DISPLAY=:0 bash -i'"
+alias popfs="sshfs pi@192.168.0.122: poppy"
+
+
+
