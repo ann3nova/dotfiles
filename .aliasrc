@@ -4,6 +4,9 @@ alias ds="ncdu ~/mnt/FOO"
 alias firm="fwupdmgr update"
 alias foo="cd ~/mnt/FOO"
 alias fuck="sudo !!"
+alias ll="ls -tr"
+alias mpvl="mpv --loop"
+alias mpvr="mpv --shuffle --loop"
 alias vi="nvim"
 alias video="watch -n 2 nvidia-smi"
 alias wget="wget -c"
@@ -13,13 +16,14 @@ alias ytud="sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/l
 
 
 #adora
-alias afs="sshfs oneeightzero@10.100.1.15:/home/oneeightzero/mnt /home/oneeightzero/adora"
+alias adora="ssh 192.168.0.136: /home/oneeightzero/adora"
+alias adir="cd /home/oneeightzero/adora"
 
 
 #misha
 alias misha="ssh oneeightzero@192.168.0.196"
 alias mifs="sshfs oneeightzero@192.168.0.196: /home/oneeightzero/misha/" 
-
+alias mdir="cd /home/oneeightzero/misha"
 
 #samus
 alias samus="ssh oneeightzero@10.100.1.10"
@@ -28,7 +32,7 @@ alias samfs="sshfs oneeightzero@10.100.1.10:/home/oneeightzero/ /home/oneeightze
 
 #poppy
 alias poppy="ssh -t pi@192.168.0.122 'DISPLAY=:0 bash -i'"
-alias popfs="sshfs pi@192.168.0.122: poppy"
-
+alias popfs="sshfs pi@192.168.0.122: /home/oneeightzero/poppy"
+alias emu="emulationstation"
 
 
