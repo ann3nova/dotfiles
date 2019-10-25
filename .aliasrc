@@ -13,6 +13,7 @@ alias wget="wget -c"
 alias yt="youtube-dl -f best"
 alias ytsync="youtube-dl -ci 'https://www.youtube.com/playlist?list=PL484Hmkn-WjFxkZelSCBKxuTJ9fpUt3fW'"
 alias ytud="sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl"xt
+alias lsr='ls -tr'
 
 
 #adora
