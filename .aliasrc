@@ -4,7 +4,7 @@ alias ds="ncdu ~/mnt/FOO"
 alias firm="fwupdmgr update"
 alias foo="cd ~/mnt/FOO"
 alias fuck="sudo !!"
-alias ll="ls -tr"
+alias lsr="ls -tr"
 alias mpvl="mpv --loop"
 alias mpvr="mpv --shuffle --loop"
 alias vi="nvim"
@@ -13,7 +13,6 @@ alias wget="wget -c"
 alias yt="youtube-dl -f best"
 alias ytsync="youtube-dl -ci 'https://www.youtube.com/playlist?list=PL484Hmkn-WjFxkZelSCBKxuTJ9fpUt3fW'"
 alias ytud="sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl"xt
-alias lsr='ls -tr'
 
 
 #adora
