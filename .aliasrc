@@ -22,8 +22,8 @@ alias adir="cd /home/oneeightzero/adora"
 
 #misha
 alias misha="ssh oneeightzero@192.168.0.196"
-alias mifs="sshfs oneeightzero@192.168.0.196: /home/oneeightzero/misha/" 
-alias mdir="cd /home/oneeightzero/misha"
+alias mifs="sshfs oneeightzero@192.168.0.196: /home/pi/misha/" 
+alias mdir="cd /home/pi/misha"
 
 #samus
 alias samus="ssh oneeightzero@10.100.1.10"
