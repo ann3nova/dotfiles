@@ -35,4 +35,7 @@ alias poppy="ssh -t pi@192.168.0.122 'DISPLAY=:0 bash -i'"
 alias popfs="sshfs pi@192.168.0.122: /home/oneeightzero/poppy"
 alias emu="emulationstation"
 
+#priya
+alias priya="ssh oneeightzero@192.168.1.70"
+alias prifs="sshfs oneeightzero@192.168.1.70:/home/oneeightzero /home/oneeightzero/Priya"
 
