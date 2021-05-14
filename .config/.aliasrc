@@ -1,0 +1,64 @@
+#PATH
+export PATH="/home/oneeightzero/.local/bin:$PATH"
+
+#commands
+alias df="df -h"
+alias ds="ncdu ~/mnt/FOO"
+alias firm="fwupdmgr update"
+alias foo="cd ~/mnt/FOO"
+alias fuck="sudo !!"
+alias ls="exa -al --color=always --group-directories-first"
+alias lsr="exa -alr --color=always"
+alias lsn="exa -aln --color=always"
+alias mpvl="mpv --loop"
+alias mpvr="mpv --shuffle --loop"
+alias video="watch -n 2 nvidia-smi"
+alias wget="wget -c"
+alias yt="youtube-dl -f best"
+alias ytsync="youtube-dl -ci 'https://www.youtube.com/playlist?list=PL484Hmkn-WjFxkZelSCBKxuTJ9fpUt3fW'"
+alias ytud="sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl"xt
+alias topten="history | commands | sort -rn | head"
+alias myip="curl http://ipecho.net/plain; echo"
+alias dirs='dirs -v | head -10'
+alias usage='du -h -d1'
+alias up="source ~/.zshrc"
+alias sshdir="cd ~/.ssh"
+alias runp="lsof -i "
+alias md="mkdir "
+alias ..='cd ..'
+alias ...='cd ../..'
+
+#mister
+alias mist='ssh -t root@10.100.1.90 "cd /media/fat ; exec \$SHELL -l"'
+alias mistfs="sshfs root@10.100.1.90:/media/fat /home/oneeightzero/MiSTer" 
+
+#adora
+alias adora="sshfs oneeightzero@192.168.1.64:/home/oneeightzero /home/oneeightzero/Adora"
+alias adir="cd /home/oneeightzero/adora"
+
+#laetitia
+alias lae="ssh pi@10.100.1.56"
+alias laefs="sshfs pi@10.100.1.56:/home/pi /home/oneeightzero/laetitia"
+
+#misha
+alias misha="ssh oneeightzero@192.168.0.196"
+alias mifs="sshfs oneeightzero@192.168.0.196: /home/pi/misha/" 
+alias mdir="cd /home/pi/misha"
+
+#samus
+alias samus="ssh oneeightzero@192.168.1.82"
+alias samfs="sshfs oneeightzero@192.168.1.82:/home/oneeightzero/ /home/oneeightzero/Samus"
+
+#demeter
+alias deme="ssh oneeightzero@10.100.1.150"
+alias pihole="ssh oneeightzero@10.100.1.67 -p 77"
+
+#poppy
+alias poppy="ssh -t pi@192.168.0.122 'DISPLAY=:0 bash -i'"
+alias popfs="sshfs pi@192.168.0.122: /home/oneeightzero/poppy"
+alias emu="emulationstation"
+
+#priya
+alias priya="ssh oneeightzero@192.168.1.72"
+alias prifs="sshfs oneeightzero@192.168.1.72:/home/oneeightzero/ /home/oneeightzero/Priya"
+
